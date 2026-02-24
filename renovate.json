@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "groupName": "k8s",
+      "matchDatasources": ["go"],
+      "matchPackageNames": ["k8s.io/*", "sigs.k8s.io/*"]
+    }
+  ]
+}
